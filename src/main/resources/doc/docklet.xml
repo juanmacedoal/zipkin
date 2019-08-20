@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+  <!-- *************************************************************************** -->
+  <!-- Commmon header -->
+  <!-- *************************************************************************** -->
+
+  <entry key="apidoc.title">Zipkin server</entry>
+  <entry key="apidoc.package">com.zipkin</entry>
+
+  <entry key="apidoc.description">The zipkin server </entry>
+
+
+  <!-- *************************************************************************** -->
+  <!-- Swagger Text contents -->
+  <!-- *************************************************************************** -->
+
+  <!-- Global: response.<Code> = Response Reason Models: model.<model name> 
+    = Description model.<model name>.example = Model Example model.<model name>.prop.<Property 
+    name> = Description model.<model name>.prop.<Property name>.example = Property 
+    example Methods: <group>.<method Name> = Header text <group>.<method Name>.notes 
+    = Implementation notes <group>.<method Name>.response.<Code> = Response Reason 
+    <group>.<method Name>.parameters.<Parameter name> = Description -->
+
+  <!-- *************************************************************************** -->
+  <!-- Global -->
+  <!-- *************************************************************************** -->
+
+
+  <entry key="response.400">Bad Formed</entry>
+  <entry key="response.401">Unauthorized</entry>
+  <entry key="response.403">Forbidden</entry>
+  <entry key="response.404">Not Found</entry>
+  <entry key="response.409">Conflict</entry>
+  <entry key="response.412">Could not delete the workstation</entry>
+  <entry key="response.415">Unsupported Media Type</entry>
+
+  <entry key="response.200">Successful.response</entry>
+  <entry key="response.201">Created</entry>
+  <entry key="response.204">No content</entry>
+
+
+</properties>

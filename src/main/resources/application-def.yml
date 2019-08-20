@@ -1,0 +1,30 @@
+# --------------------------------------------
+# SERVER CONFIGURATION
+# -------------------------------------------- 
+server: 
+  port: 8101
+  
+# --------------------------------------------
+# SPRING SECURITY CONFIGURATION 
+# --------------------------------------------    
+management:
+  context-path: /admin
+    
+# --------------------------------------------
+# LOG CONFIGURATION
+# --------------------------------------------    
+logging:
+   file: ${spring.application.name}.log
+   path: /var/log   
+    
+# --------------------------------------------
+# SPRING APP CONFIGURATION
+# --------------------------------------------    
+spring:    
+  jmx:
+    default-domain: cloud.config.server
+  aop: 
+    proxy-target-class: false        
+  profiles: 
+    active: def   
+              
